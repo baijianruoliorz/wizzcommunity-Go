@@ -1,2 +1,13 @@
 {"level":"DEBUG","time":"2020-10-20T14:27:49.438+0800","caller":"wizzcommunity/main.go:37","msg":"logger init success..."}
 {"level":"ERROR","time":"2020-10-20T14:27:49.498+0800","caller":"mysql/mysql.go:26","msg":"connect DB failed","error":"Error 1049: Unknown database 'wizzcommunity'"}
+{"level":"DEBUG","time":"2020-10-20T14:47:30.624+0800","caller":"wizzcommunity/main.go:37","msg":"logger init success..."}
+{"level":"DEBUG","time":"2020-10-20T14:48:38.347+0800","caller":"wizzcommunity/main.go:37","msg":"logger init success..."}
+{"level":"DEBUG","time":"2020-10-20T14:49:52.906+0800","caller":"wizzcommunity/main.go:37","msg":"logger init success..."}
+{"level":"DEBUG","time":"2020-10-20T14:54:27.925+0800","caller":"wizzcommunity/main.go:37","msg":"logger init success..."}
+{"level":"DEBUG","time":"2020-10-20T14:54:47.174+0800","caller":"wizzcommunity/main.go:37","msg":"logger init success..."}
+{"level":"INFO","time":"2020-10-20T14:54:59.533+0800","caller":"wizzcommunity/main.go:73","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2020-10-20T14:54:59.533+0800","caller":"wizzcommunity/main.go:82","msg":"Server exiting"}
+{"level":"DEBUG","time":"2020-10-20T14:55:03.483+0800","caller":"wizzcommunity/main.go:37","msg":"logger init success..."}
+{"level":"DEBUG","time":"2020-10-20T14:55:13.597+0800","caller":"wizzcommunity/main.go:37","msg":"logger init success..."}
+{"level":"DEBUG","time":"2020-10-20T14:55:17.363+0800","caller":"wizzcommunity/main.go:37","msg":"logger init success..."}
+{"level":"DEBUG","time":"2020-10-20T14:56:44.866+0800","caller":"wizzcommunity/main.go:37","msg":"logger init success..."}

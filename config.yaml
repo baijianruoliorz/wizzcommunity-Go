@@ -13,11 +13,11 @@ mysql:
   port: 3306
   user: "root"
   password: "123456"
-  dbname: "wizzCommunity"
+  dbname: "bluebell"
   max_open_conns: 200
   max_idle_conns: 50
 redis:
-  host: localhosgt
+  host: localhost
   port: 6379
   password: ""
   db: 0
