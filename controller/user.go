@@ -17,6 +17,14 @@ import (
 *  @data 2020/10/20 15:13
  */
 
+// SignUpHandler 注册
+// @Summary 简单注册接口
+// @Description 摸鱼
+// @Tags 摸鱼
+// @Accept application/json
+// @Produce application/json
+// @Success 200
+// @Router /posts2 [get]
 func SignUpHandler(c *gin.Context) {
 	//	获取参数和参数校验
 	p := new(models.ParamSignUp)

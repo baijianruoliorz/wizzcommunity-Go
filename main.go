@@ -20,7 +20,15 @@ import (
 	"go.uber.org/zap"
 )
 
-// Go Web开发较通用的脚手架模板
+// @title wizzCommunity项目接口文档
+// @version 1.0
+// @description wizz成员交流社区
+
+// @contact.name yangxiangrui
+// @contact.url https://www.yangxiangrui.site
+
+// @host 127.0.0.1:8083
+// @BasePath /api/v1
 
 func main() {
 	// 1. 加载配置

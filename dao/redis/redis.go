@@ -9,6 +9,10 @@ import (
 
 // 声明一个全局的rdb变量
 var rdb *redis.Client
+var (
+	client *redis.Client
+	Nil    = redis.Nil
+)
 
 // Init 初始化连接
 func Init() (err error) {
