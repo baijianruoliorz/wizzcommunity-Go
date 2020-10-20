@@ -96,3 +96,15 @@
 {"level":"INFO","time":"2020-10-20T16:23:22.505+0800","caller":"logger/logger.go:71","msg":"/swagger/swagger-ui-bundle.js","status":304,"method":"GET","path":"/swagger/swagger-ui-bundle.js","query":"","ip":"127.0.0.1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36","errors":"","cost":0}
 {"level":"INFO","time":"2020-10-20T16:23:22.505+0800","caller":"logger/logger.go:71","msg":"/swagger/swagger-ui-standalone-preset.js","status":304,"method":"GET","path":"/swagger/swagger-ui-standalone-preset.js","query":"","ip":"127.0.0.1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36","errors":"","cost":0}
 {"level":"DEBUG","time":"2020-10-20T16:24:11.049+0800","caller":"wizzcommunity/main.go:37","msg":"logger init success..."}
+{"level":"DEBUG","time":"2020-10-20T16:24:24.277+0800","caller":"wizzcommunity/main.go:37","msg":"logger init success..."}
+{"level":"DEBUG","time":"2020-10-20T16:29:13.133+0800","caller":"wizzcommunity/main.go:37","msg":"logger init success..."}
+{"level":"DEBUG","time":"2020-10-20T17:10:00.769+0800","caller":"wizzcommunity/main.go:37","msg":"logger init success..."}
+{"level":"DEBUG","time":"2020-10-20T17:18:42.725+0800","caller":"wizzcommunity/main.go:37","msg":"logger init success..."}
+{"level":"DEBUG","time":"2020-10-20T17:18:43.753+0800","caller":"wizzcommunity/main.go:37","msg":"logger init success..."}
+{"level":"DEBUG","time":"2020-10-20T17:24:28.291+0800","caller":"wizzcommunity/main.go:37","msg":"logger init success..."}
+{"level":"DEBUG","time":"2020-10-20T17:24:29.335+0800","caller":"wizzcommunity/main.go:37","msg":"logger init success..."}
+{"level":"DEBUG","time":"2020-10-20T17:42:27.789+0800","caller":"wizzcommunity/main.go:37","msg":"logger init success..."}
+{"level":"DEBUG","time":"2020-10-20T17:43:21.702+0800","caller":"wizzcommunity/main.go:37","msg":"logger init success..."}
+{"level":"INFO","time":"2020-10-20T17:44:15.270+0800","caller":"wizzcommunity/main.go:73","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2020-10-20T17:44:15.270+0800","caller":"wizzcommunity/main.go:82","msg":"Server exiting"}
+{"level":"DEBUG","time":"2020-10-20T17:44:34.141+0800","caller":"wizzcommunity/main.go:37","msg":"logger init success..."}

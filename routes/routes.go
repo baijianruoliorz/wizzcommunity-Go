@@ -2,6 +2,7 @@ package routes
 
 import (
 	"net/http"
+	"wizzcommunity/controller"
 	"wizzcommunity/logger"
 
 	"github.com/gin-gonic/gin"
@@ -33,5 +34,10 @@ func Setup() *gin.Engine {
 
 	r.GET("/swagger/*any", ginSwagger.WrapHandler(swaggerFiles.Handler))
 
+	v1 := r.Group("/api/v1")
+	//注册
+	v1.POST("signUp", controller.SignUpHandler)
+	//登录
+	v1.POST("login", controller.LoginHandler)
 	return r
 }
