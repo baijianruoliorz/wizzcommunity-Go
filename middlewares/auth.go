@@ -2,6 +2,8 @@ package middlewares
 
 import (
 	"strings"
+	"wizzcommunity/controller"
+	"wizzcommunity/pkg/jwt"
 
 	"github.com/gin-gonic/gin"
 )

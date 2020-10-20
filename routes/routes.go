@@ -42,8 +42,6 @@ func Setup() *gin.Engine {
 
 	v1.GET("/post2", controller.GetPostListHandler2)
 	v1.GET("/posts", controller.GetPostListHandler)
-	v1.GET("community", controller.CommunityHandler)
-	v1.GET("/community/:id", controller.CommunityDetailHandler)
 	v1.GET("/post/:id", controller.GetPostDetailHandler)
 
 	return r
