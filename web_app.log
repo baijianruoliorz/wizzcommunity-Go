@@ -11,3 +11,10 @@
 {"level":"DEBUG","time":"2020-10-20T14:55:13.597+0800","caller":"wizzcommunity/main.go:37","msg":"logger init success..."}
 {"level":"DEBUG","time":"2020-10-20T14:55:17.363+0800","caller":"wizzcommunity/main.go:37","msg":"logger init success..."}
 {"level":"DEBUG","time":"2020-10-20T14:56:44.866+0800","caller":"wizzcommunity/main.go:37","msg":"logger init success..."}
+{"level":"DEBUG","time":"2020-10-20T15:01:27.548+0800","caller":"wizzcommunity/main.go:37","msg":"logger init success..."}
+{"level":"DEBUG","time":"2020-10-20T15:01:56.039+0800","caller":"wizzcommunity/main.go:37","msg":"logger init success..."}
+{"level":"DEBUG","time":"2020-10-20T15:03:15.419+0800","caller":"wizzcommunity/main.go:37","msg":"logger init success..."}
+{"level":"DEBUG","time":"2020-10-20T15:03:37.277+0800","caller":"wizzcommunity/main.go:37","msg":"logger init success..."}
+{"level":"INFO","time":"2020-10-20T15:08:36.268+0800","caller":"logger/logger.go:71","msg":"/","status":200,"method":"GET","path":"/","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36","errors":"","cost":0}
+{"level":"INFO","time":"2020-10-20T15:08:36.578+0800","caller":"logger/logger.go:71","msg":"/favicon.ico","status":404,"method":"GET","path":"/favicon.ico","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36","errors":"","cost":0}
+{"level":"INFO","time":"2020-10-20T15:08:53.894+0800","caller":"logger/logger.go:71","msg":"/","status":200,"method":"GET","path":"/","query":"","ip":"::1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36","errors":"","cost":0}
