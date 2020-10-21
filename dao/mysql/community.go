@@ -20,6 +20,7 @@ func GetCommunityList() (communityList []*models.Community, err error) {
 			err = nil
 		}
 	}
+
 	return
 }
 

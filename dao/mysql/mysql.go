@@ -2,12 +2,10 @@ package mysql
 
 import (
 	"fmt"
-
-	"github.com/spf13/viper"
-	"go.uber.org/zap"
-
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/jmoiron/sqlx"
+	"github.com/spf13/viper"
+	"go.uber.org/zap"
 )
 
 var db *sqlx.DB

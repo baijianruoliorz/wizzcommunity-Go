@@ -11,7 +11,7 @@ import (
 *  @author liqiqiorz
 *  @data 2020/10/20 15:13
  */
-//这里写放业务逻辑的代码
+// 这里写放业务逻辑的代码
 func SignUp(p *models.ParamSignUp) (err error) {
 	//	判断用户存不存在
 	if err := mysql.CheckUserExist(p.Username); err != nil {
@@ -26,7 +26,8 @@ func SignUp(p *models.ParamSignUp) (err error) {
 		Password: p.Password,
 	}
 	//保存进数据库
-	return mysql.InsertUser(user)
+	mysql.InsertUser(user)
+	return
 }
 
 func Login(p *models.ParamLogin) (user *models.User, err error) {

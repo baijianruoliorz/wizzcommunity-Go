@@ -9,10 +9,13 @@ import (
 	"os/signal"
 	"syscall"
 	"time"
+	"wizzcommunity/controller"
 	"wizzcommunity/dao/mysql"
 	"wizzcommunity/dao/redis"
 	"wizzcommunity/logger"
+	"wizzcommunity/pkg/snowflake"
 	"wizzcommunity/routes"
+	"wizzcommunity/setting"
 	"wizzcommunity/settings"
 
 	"github.com/spf13/viper"
@@ -55,6 +58,16 @@ func main() {
 		return
 	}
 	defer redis.Close()
+	if err := snowflake.Init("2020-10-21", setting.Conf.MachineID); err != nil {
+		fmt.Printf("init snowflake failed, err:%v\n", err)
+		return
+	}
+	// 初始化gin框架内置的校验器使用的翻译器
+	if err := controller.InitTrans("zh"); err != nil {
+		fmt.Printf("init validator trans failed, err:%v\n", err)
+		return
+	}
+
 	// 5. 注册路由
 	r := routes.Setup()
 	// 6. 启动服务（优雅关机）

@@ -4,6 +4,7 @@ import (
 	"crypto/md5"
 	"database/sql"
 	"encoding/hex"
+	"fmt"
 	"wizzcommunity/models"
 )
 
@@ -26,6 +27,14 @@ func CheckUserExist(username string) (err error) {
 	}
 	return
 }
+func SelectUserExist() (err error) {
+	sqlStr := `select count(*) from user`
+	var count int64
+	db.Get(&count, sqlStr)
+	fmt.Println("已连接")
+	fmt.Println(count)
+	return
+}
 
 //InsertUser 向数据库中插入一条新的用户记录
 func InsertUser(user *models.User) (err error) {
@@ -34,6 +43,7 @@ func InsertUser(user *models.User) (err error) {
 	//	执行sql语句入库
 	sqlStr := `insert into user(user_id,username,password) values(?,?,?)`
 	_, err = db.Exec(sqlStr, user.UserID, user.Username, user.Password)
+
 	return
 }
 

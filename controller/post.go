@@ -78,7 +78,7 @@ func GetPostListHandler(c *gin.Context) {
 // GetPostListHandler2 升级版帖子列表接口
 // @Summary 升级版帖子列表接口
 // @Description 可按社区按时间或分数排序查询帖子列表接口
-// @Tags 帖子相关接口(api分组展示使用的)
+// @Tags post
 // @Accept application/json
 // @Produce application/json
 // @Param Authorization header string true "Bearer JWT"

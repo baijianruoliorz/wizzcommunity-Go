@@ -4,11 +4,10 @@ import (
 	"errors"
 	"fmt"
 	"github.com/gin-gonic/gin"
+	"github.com/go-playground/validator/v10"
 	"go.uber.org/zap"
 	"wizzcommunity/dao/mysql"
 	"wizzcommunity/logic"
-
-	"github.com/go-playground/validator/v10"
 	"wizzcommunity/models"
 )
 
@@ -17,14 +16,17 @@ import (
 *  @data 2020/10/20 15:13
  */
 
-// SignUpHandler 注册
-// @Summary 简单注册接口
-// @Description 摸鱼
-// @Tags 摸鱼
-// @Accept application/json
-// @Produce application/json
-// @Success 200
-// @Router /posts2 [get]
+/*
+//@Summary 简单注册接口
+//@Description 用户注册用
+//@Tags User
+//@Accept application/json
+//@Produce application/json
+//@param user body models.ParamSignUp true "注册请求参数"
+//@Success 200
+//@Router /signUp [post]
+*/
+
 func SignUpHandler(c *gin.Context) {
 	//	获取参数和参数校验
 	p := new(models.ParamSignUp)
@@ -40,7 +42,9 @@ func SignUpHandler(c *gin.Context) {
 		ResponseErrorWithMsg(c, CodeInvalidParam, removeTopStruct(errs.Translate(trans)))
 		return
 	}
-	//	业务处理
+	//	fmt.Printf(p.Password,p.Username,p.RePassword,p.Password)
+
+	//业务处理
 	if err := logic.SignUp(p); err != nil {
 		zap.L().Error("logic.SignUp failed", zap.Error(err))
 		if errors.Is(err, mysql.ErrorUserExist) {
@@ -51,7 +55,27 @@ func SignUpHandler(c *gin.Context) {
 		return
 	}
 	//	返回响应
+
+	//userID := snowflake.GenID()
+	////    构造一个user实例
+	//user := &models.User{
+	//	UserID:   userID,
+	//	Username: p.Username,
+	//	Password: p.Password,
+	//}
+	//mysql.InsertUser(user)
 	ResponseSuccess(c, nil)
+}
+
+//test
+func Sign(c *gin.Context) {
+	user := &models.User{
+		UserID:   1223,
+		Username: "sad",
+		Password: "asdas",
+	}
+	mysql.InsertUser(user)
+	//mysql.SelectUserExist()
 }
 
 //登录
