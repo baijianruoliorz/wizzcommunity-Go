@@ -641,3 +641,6 @@
 {"level":"DEBUG","time":"2020-10-21T10:27:33.606+0800","caller":"wizzcommunity/main.go:48","msg":"logger init success..."}
 {"level":"INFO","time":"2020-10-21T10:27:38.800+0800","caller":"logger/logger.go:71","msg":"/api/v1/signUp","status":200,"method":"POST","path":"/api/v1/signUp","query":"","ip":"::1","user-agent":"PostmanRuntime/7.6.0","errors":"","cost":0.0032711}
 {"level":"DEBUG","time":"2020-10-21T10:28:10.070+0800","caller":"wizzcommunity/main.go:48","msg":"logger init success..."}
+{"level":"DEBUG","time":"2020-10-21T10:30:49.548+0800","caller":"wizzcommunity/main.go:48","msg":"logger init success..."}
+{"level":"INFO","time":"2020-10-21T10:33:11.140+0800","caller":"wizzcommunity/main.go:94","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2020-10-21T10:33:11.140+0800","caller":"wizzcommunity/main.go:103","msg":"Server exiting"}
