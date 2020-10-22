@@ -9,15 +9,15 @@ log:
   max_age: 30
   max_backups: 7
 mysql:
-  host: localhost
+  host: 112.126.78.122
   port: 3306
   user: "root"
-  password: "123456"
+  password: "admin"
   dbname: "wizzcommunity"
   max_open_conns: 200
   max_idle_conns: 50
 redis:
-  host: localhost
+  host: 112.126.78.122
   port: 6379
   password: ""
   db: 0
