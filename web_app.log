@@ -649,3 +649,6 @@
 {"level":"INFO","time":"2020-10-22T10:59:19.714+0800","caller":"wizzcommunity/main.go:94","msg":"Shutdown Server ..."}
 {"level":"INFO","time":"2020-10-22T10:59:19.714+0800","caller":"wizzcommunity/main.go:103","msg":"Server exiting"}
 {"level":"DEBUG","time":"2020-10-22T11:01:27.777+0800","caller":"wizzcommunity/main.go:48","msg":"logger init success..."}
+{"level":"DEBUG","time":"2020-10-22T11:05:39.336+0800","caller":"wizzcommunity/main.go:48","msg":"logger init success..."}
+{"level":"INFO","time":"2020-10-22T11:06:54.625+0800","caller":"wizzcommunity/main.go:94","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2020-10-22T11:06:54.626+0800","caller":"wizzcommunity/main.go:103","msg":"Server exiting"}
