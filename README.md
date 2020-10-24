@@ -27,3 +27,12 @@ Java的主后台还是留给期中之后吧~
 欢迎有想法的大佬git clone二次开发吊打我orz 
 
 wizzCommunity built by Go             --baijianruoliorz
+
+update 2020.10.25:
+增加了一个gormDemo包,因为这个项目的orm用的是sqlx(个人比较习惯)
+
+但是考虑到gorm非常方便,所以写了两个小demo 几乎囊括了日常的gorm使用
+
+以及重新编写了DockerFile 它现在变得更符合这个项目了(~~之前偷懒直接复制其他的项目~~)
+
+因为我觉得这样很coooooooool!
