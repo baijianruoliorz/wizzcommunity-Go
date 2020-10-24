@@ -19,7 +19,7 @@ type User struct {
 }
 
 func main() {
-	db, err := gorm.Open("mysql", "root:root1234@(127.0.0.1:13306)/db1?charset=utf8mb4&parseTime=True&loc=Local")
+	db, err := gorm.Open("mysql", "root:123456@(127.0.0.1:3306)/db1?charset=utf8mb4&parseTime=True&loc=Local")
 	if err != nil {
 		panic(err)
 	}
@@ -51,7 +51,6 @@ func main() {
 	db.Debug().First(&user, 2)      //SELECT * FROM `user`  WHERE `user`.`deleted_at` IS NULL AND ((`user`.`id` = 2)) ORDER BY `user`.`id` ASC LIMIT 1
 	fmt.Println("查询指定的某条记录：", user) //仅当主键为整型时可用
 
-	Where
 	db.Debug().Where("name = ?", "jinzhu").First(&user) //SELECT * FROM `user`  WHERE `user`.`deleted_at` IS NULL AND ((name = 'jinzhu')) ORDER BY `user`.`id` ASC LIMIT 1
 	fmt.Println("查询第一条匹配条件记录：", user)
 
