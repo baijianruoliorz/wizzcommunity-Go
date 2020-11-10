@@ -37,6 +37,8 @@ func Setup() *gin.Engine {
 	r.GET("/swagger/*any", ginSwagger.WrapHandler(swaggerFiles.Handler))
 
 	v1 := r.Group("/api/v1")
+	//cors
+	v1.Use(middlewares.CORSMiddleware())
 	//注册
 	v1.POST("signUp", controller.SignUpHandler)
 	//登录

@@ -31,6 +31,12 @@ func main() {
 	db.AutoMigrate(&UserInfo{})
 	//u1:=UserInfo{1,"liqiqiorz","男","写代码"}
 	//u2:=UserInfo{2,"baijianruoliorz","女","谈恋爱"}
+	u3 := new(UserInfo)
+	u3.ID = 33
+	u3.Hobby = "dsa"
+	u3.Gender = "sad"
+	u3.Name = "张三"
+	db.Create(u3)
 	//创建记录
 	//db.Create(&u1)
 	//db.Create(&u2)

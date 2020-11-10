@@ -75,6 +75,7 @@ func Sign(c *gin.Context) {
 		Password: "asdas",
 	}
 	mysql.InsertUser(user)
+	ResponseSuccess(c, user)
 	//mysql.SelectUserExist()
 }
 
