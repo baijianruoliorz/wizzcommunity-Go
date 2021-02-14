@@ -679,3 +679,10 @@
 {"level":"DEBUG","time":"2020-10-31T16:30:06.178+0800","caller":"wizzcommunity/main.go:48","msg":"logger init success..."}
 {"level":"INFO","time":"2020-10-31T16:30:08.862+0800","caller":"logger/logger.go:71","msg":"/api/v1/sign","status":200,"method":"GET","path":"/api/v1/sign","query":"","ip":"::1","user-agent":"curl/7.55.1","errors":"","cost":0.0029776}
 {"level":"DEBUG","time":"2020-11-05T20:05:05.567+0800","caller":"wizzcommunity/main.go:48","msg":"logger init success..."}
+{"level":"DEBUG","time":"2020-11-10T09:12:23.005+0800","caller":"wizzcommunity/main.go:48","msg":"logger init success..."}
+{"level":"DEBUG","time":"2020-11-10T09:40:43.022+0800","caller":"wizzcommunity/main.go:48","msg":"logger init success..."}
+{"level":"DEBUG","time":"2020-11-10T09:41:35.851+0800","caller":"wizzcommunity/main.go:48","msg":"logger init success..."}
+{"level":"DEBUG","time":"2020-11-10T09:41:58.948+0800","caller":"wizzcommunity/main.go:48","msg":"logger init success..."}
+{"level":"DEBUG","time":"2020-11-10T09:43:22.128+0800","caller":"wizzcommunity/main.go:48","msg":"logger init success..."}
+{"level":"DEBUG","time":"2020-11-10T09:43:23.251+0800","caller":"wizzcommunity/main.go:48","msg":"logger init success..."}
+{"level":"DEBUG","time":"2020-11-10T09:44:19.920+0800","caller":"wizzcommunity/main.go:48","msg":"logger init success..."}
