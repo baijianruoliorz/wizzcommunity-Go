@@ -2,8 +2,9 @@ package mysql
 
 import (
 	"database/sql"
-	"go.uber.org/zap"
 	"wizzcommunity/models"
+
+	"go.uber.org/zap"
 )
 
 /*
@@ -20,7 +21,6 @@ func GetCommunityList() (communityList []*models.Community, err error) {
 			err = nil
 		}
 	}
-
 	return
 }
 
@@ -31,6 +31,14 @@ func GetCommunityDetailByID(id int64) (community *models.CommunityDetail, err er
 			from community 
 			where community_id = ?
 	`
+
+	/*	sqlStr2:=`select community_id,community_name,introduction,create_time from community where community_id=?`
+		if err:=db.Get(community,sqlStr2,id);err!=nil{
+			if err ==sql.ErrNoRows{
+				err=ErrorInvalidID
+			}
+		}*/
+
 	if err := db.Get(community, sqlStr, id); err != nil {
 		if err == sql.ErrNoRows {
 			err = ErrorInvalidID

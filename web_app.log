@@ -686,3 +686,10 @@
 {"level":"DEBUG","time":"2020-11-10T09:43:22.128+0800","caller":"wizzcommunity/main.go:48","msg":"logger init success..."}
 {"level":"DEBUG","time":"2020-11-10T09:43:23.251+0800","caller":"wizzcommunity/main.go:48","msg":"logger init success..."}
 {"level":"DEBUG","time":"2020-11-10T09:44:19.920+0800","caller":"wizzcommunity/main.go:48","msg":"logger init success..."}
+{"level":"DEBUG","time":"2021-03-03T21:55:59.160+0800","caller":"wizzcommunity/main.go:48","msg":"logger init success..."}
+{"level":"DEBUG","time":"2021-03-03T21:58:46.544+0800","caller":"wizzcommunity/main.go:48","msg":"logger init success..."}
+{"level":"DEBUG","time":"2021-03-03T21:59:32.013+0800","caller":"wizzcommunity/main.go:48","msg":"logger init success..."}
+{"level":"DEBUG","time":"2021-03-03T21:59:45.750+0800","caller":"wizzcommunity/main.go:48","msg":"logger init success..."}
+{"level":"INFO","time":"2021-03-03T21:59:57.151+0800","caller":"wizzcommunity/main.go:94","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2021-03-03T21:59:57.151+0800","caller":"wizzcommunity/main.go:103","msg":"Server exiting"}
+{"level":"DEBUG","time":"2021-03-03T22:00:00.186+0800","caller":"wizzcommunity/main.go:48","msg":"logger init success..."}
